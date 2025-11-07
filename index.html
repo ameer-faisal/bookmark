@@ -5,17 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>bookmark</title>
     <link rel="shortcut icon" href="/images/favicon-32x32.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preload" href="style-home-page.css" as="style" onload="this.rel='stylesheet'">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+  
+    <link rel="stylesheet" href="/style.css" as="style" >
+
+    <link rel="preload" href="style-home-page.css" as="style">
+<link rel="stylesheet" href="style-home-page.css" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="style-home-page.css"></noscript>
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet" swap>
+
 
 
 </head>
 <body>
     <header>
-        <img src="/images/logo-bookmark.svg" alt="logo">
+        <img src="/images/logo-bookmark.svg" alt="logo" width="207" height="35">
         <img src="/images/icon-hamburger.svg" alt="menu" hidden id="hamburger">
         
         <nav class="top-nav" id="nav">
@@ -173,4 +178,5 @@
     </footer>
     <script src="/script.js"></script>
 </body>
+
 </html>
